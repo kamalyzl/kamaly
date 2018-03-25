@@ -133,14 +133,7 @@ ul.ed-menu.s-horizontal.default a {
 
 /*diseño de la cuarta sección MIS PROYECTOS*/
 
-.title {
-  line-height: 32px;
-  /* font-size: 3em; */
-  text-align: center;
-  font-family: 'Dosis', sans-serif;
-  padding: 7px 0;
-  margin: 5px 0;
-}
+
 .box-img-proyect {
   padding: 50px 0;  
 }
@@ -556,10 +549,10 @@ ul.ed-menu.s-horizontal.default a {
       line-height: 32px; 
       text-align: center;
       font-family: 'Dosis', sans-serif;
-      padding-top: 5rem;
-      /* padding-bottom: 3rem; */
-   
-    }
+      padding-top: 5rem;   
+      font-size: 36px; 
+    } 
+
     .box-img-proyect {
       padding: 50px 0;  
     } 
