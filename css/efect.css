@@ -2,12 +2,12 @@
 .snip1584 {
   font-family: 'Raleway', sans-serif;
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   overflow: hidden;
   margin: 10px 8px;
-  min-width: 230px;
-  max-width: 315px;
-  width: 100%;
+  /* min-width: 230px; */
+  /* max-width: 315px; */
+  /* width: 100%; */
   color: #ffffff;
   font-size: 16px;
   text-align: left;
@@ -34,9 +34,9 @@
 }
 .snip1584 img {
   vertical-align: top;
-  max-width: 100%;
+  /* max-width: 100%; */
   backface-visibility: hidden;
-  height: 200px; 
+  /* height: 200px;  */
   object-fit: cover;
 }
 .snip1584 figcaption {
