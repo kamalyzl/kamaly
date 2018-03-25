@@ -76,8 +76,8 @@ ul.ed-menu.s-horizontal.default a {
   transition: 0.5s;
 } 
 
-/*diseño de la primera sección*/
-.firtSection {
+/*diseño de la primera sección HOME */
+.home {
   height: 100vh;
   font-weight: 400; 
   background-color: var(--colorBlack); 
@@ -91,7 +91,7 @@ ul.ed-menu.s-horizontal.default a {
   background-position: center; */
 }
 
-.firsSection_content {
+.home_content {
   display: grid;
   text-align: center;
   margin-top: 100px;
@@ -113,13 +113,13 @@ ul.ed-menu.s-horizontal.default a {
   padding-bottom: 10%;
 }   
 
-/*diseño de la tercera sección*/
+/*diseño de la tercera sección CONOCIMIENTOS*/
 .treeSection {    
   background-repeat: no-repeat;   
   background-image: url(../assets/images/skill.png);
-  background-size: 50vh;
+  background-size: 40vh;
   background-position: bottom center;
-  height: 100vh;
+  height: 90vh;
   background-color: var(--colorBlack);
 }
 .treeSection-title {
@@ -140,7 +140,7 @@ ul.ed-menu.s-horizontal.default a {
   margin: 1rem;
 }
 
-/*diseño de la cuarta sección*/
+/*diseño de la cuarta sección MIS PROYECTOS*/
 
 .title {
   line-height: 32px;
@@ -166,17 +166,37 @@ ul.ed-menu.s-horizontal.default a {
   
 }
 
-/*diseño de la quinta sección*/
-.fiveSection {
+/*diseño de la quinta sección - contacto*/
+.contact {
   /* background-image: url(../assets/images/bg.jpg); */
-  background-image: url(https://cdn.pixabay.com/photo/2017/09/21/16/43/lens-reflection-2772434_960_720.jpg);
+  background-image: url(../assets/images/footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--colorBlack);
   background-position: bottom center; 
   color: var(--colorWhite);
-  height: 60vh;
+  height: 40vh;
 }
+
+.contact__content {
+  /* outline: 1px solid; */
+  margin-top: 5%;
+  /* background-color: red; */
+  padding-top: 2rem;
+}
+.contact__cv {
+  margin-bottom: 3rem;
+}
+
+.contact__social{
+  display: inline-block;
+  text-align: center;
+}
+.contact__social a{
+  color: var(--colorYellow);
+  font-size: 2rem;
+}
+ 
 .btn-cv {
   padding: 10px;
   background: var(--colorYellow);
@@ -191,10 +211,27 @@ ul.ed-menu.s-horizontal.default a {
 }
 
 
-.footer {
-  padding: 10px;
-}
+/*momdo mobile*/
+@media only screen and (max-width: 600px) {
+  .contact {
+    /* background-image: url(../assets/images/bg.jpg); */
+    background-image: url(../assets/images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--colorBlack);
+    background-position: right 100px; 
+    color: var(--colorWhite);
+    height: 50vh;
+  }
 
+  .contact__content { 
+    padding-top: 1rem;
+  }
+  .contact__social a{
+    font-size: 1rem;
+  }
+  
+}
 
 
 
