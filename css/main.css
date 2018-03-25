@@ -366,8 +366,8 @@ ul.ed-menu.s-horizontal.default a {
   .treeSection {    
     background-repeat: no-repeat;   
     background-image: url(../assets/images/skill.png);
-    background-size: 30vh;
-    background-position: bottom center;
+    background-size: 20vh;
+    background-position: bottom left;
     height: auto;
     background-color: var(--colorBlack);
   }
@@ -474,7 +474,7 @@ ul.ed-menu.s-horizontal.default a {
       display: block;  
       letter-spacing: 2px; 
       color: var(--colorYellow); 
-      font-size: 1rem;   
+      font-size: .7rem;   
       transition: 0.5s;
     }   
     
@@ -493,7 +493,7 @@ ul.ed-menu.s-horizontal.default a {
       height: 100vh;
       font-weight: 400; 
       background-color: var(--colorBlack); 
-      font-size: 1.8rem;
+      font-size: 1.2rem;
       letter-spacing: 8px;  
       line-height: 1.1; 
       color: var(--colorWhite);
@@ -516,7 +516,7 @@ ul.ed-menu.s-horizontal.default a {
     
     .text{
       line-height: 32px;
-      font-size: 1.4em;
+      font-size: 1em;
       text-align: justify;
       font-family: 'Dosis', sans-serif;
       /* padding-bottom: 10%; */
@@ -526,9 +526,9 @@ ul.ed-menu.s-horizontal.default a {
     .treeSection {    
       background-repeat: no-repeat;   
       background-image: url(../assets/images/skill.png);
-      background-size: 40vh;
+      background-size: 30vh;
       background-position: bottom center;
-      height: 90vh;
+      height: auto;
       background-color: var(--colorBlack);
     }
     .treeSection-title {
@@ -543,8 +543,8 @@ ul.ed-menu.s-horizontal.default a {
     }
     
     .img-skill { 
-      width: 5rem;
-      height: 5rem;
+      width: 3.5rem;
+      height: 3.5rem;
       object-fit: cover;
       color: var(--colorWhite);
       margin: 1rem;
@@ -557,7 +557,7 @@ ul.ed-menu.s-horizontal.default a {
       text-align: center;
       font-family: 'Dosis', sans-serif;
       padding-top: 1.1rem;   
-      font-size: 36px; 
+      font-size: 1.5rem; 
     } 
 
     .box-img-proyect {
@@ -603,6 +603,9 @@ ul.ed-menu.s-horizontal.default a {
       color: var(--colorYellow);
       font-size: 2rem;
     }
+    .text__hover {
+      font-size: 1rem;
+    }
     
     .btn-cv {
       padding: 10px;
@@ -631,6 +634,9 @@ ul.ed-menu.s-horizontal.default a {
  
   .firsSection_content { 
     margin-top: 300px;
+  }
+  .text {
+    /* font-size: 1rem; */
   }
 }
 
