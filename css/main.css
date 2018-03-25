@@ -1,0 +1,296 @@
+:root {
+  --colorBlack : black;
+  --colorYellow : #e0953f;
+  --colorWhite : #ECE5F0; 
+  --colorText : #464646;   
+
+}
+
+/*Tipo de letra*/
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body .ed-container {
+  max-width: none;
+}
+.nav-mobile {
+  position: fixed;
+  z-index: 1000;
+}
+
+/*Estilo de img perfil*/
+.img_perfil {
+  /* height: 25vh; */
+}
+/*color de fondo en nav mobile*/
+ul.ed-menu.s-horizontal.default {
+  background: var(--colorBlack);  
+}
+/*color de letra en nav mobile*/
+ul.ed-menu.s-horizontal.default a {
+  color: var(--colorYellow);    
+}
+
+/*Estilo del navegador vertical en desktop*/
+.nav-vertical {
+  background: var(--colorBlack); 
+  height: 100vh; 
+  /* outline: 1px solid var(--colorYellow); */
+  position: fixed;
+  /* overflow: auto; */ 
+  /* overflow-y: scroll; */  
+  box-shadow: 0 5px 10px 0 var(--colorBlack);
+}
+
+/* Estilo del contenido h3 y p de nav vertical */
+.style-text-nav-ver h3 {
+  padding: 0 10px;
+  color: var(--colorBlack);
+  font-size: 20px;
+  letter-spacing: 7px;
+  font-family: 'Dosis', sans-serif;
+}
+.style-text-nav-ver p{
+  padding: 0 10px;
+  color: var(--colorYellow);
+  font-size: 13px;
+  letter-spacing: 4px;   
+} 
+.style-text-nav-ver a { 
+  padding: 20px 10px; 
+  display: block;  
+  letter-spacing: 2px; 
+  color: var(--colorYellow); 
+  font-size: 12px;   
+  transition: 0.5s;
+}   
+
+.style-text-nav-ver a:hover { 
+  padding: 30px 10px; 
+  display: block;  
+  letter-spacing: 2px; 
+  color: var(--colorWhite);    
+  background: var(--colorText);
+  text-decoration: none;
+  transition: 0.5s;
+} 
+
+/*diseño de la primera sección*/
+.firtSection {
+  height: 100vh;
+  font-weight: 400; 
+  background-color: var(--colorBlack); 
+  font-size: 1.5em;
+  letter-spacing: 8px;  
+  line-height: 1.1; 
+  color: var(--colorWhite);
+  /* background-repeat: no-repeat; 
+  background-image: url(https://cdn.pixabay.com/photo/2017/10/10/10/13/technology-2836663__340.png);
+  background-size: cover;
+  background-position: center; */
+}
+
+.firsSection_content {
+  display: grid;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+/*diseño de la segunda sección*/
+.secondSection {
+  color: var(--colorText);
+  padding: 50px 100x;
+  padding-top: 2%;
+}
+
+.text{
+  line-height: 32px;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  padding-bottom: 10%;
+}   
+
+/*diseño de la tercera sección*/
+.treeSection {    
+  background-repeat: no-repeat;   
+  background-image: url(../assets/images/skill.png);
+  background-size: 50vh;
+  background-position: bottom center;
+  height: 100vh;
+  background-color: var(--colorBlack);
+}
+.treeSection-title {
+  line-height: 32px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: var(--colorWhite); 
+}
+.treeSection-img {
+  padding: 40px 0; 
+}
+
+.img-skill {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  color: var(--colorWhite);
+  margin: 1rem;
+}
+
+/*diseño de la cuarta sección*/
+
+.title {
+  line-height: 32px;
+  /* font-size: 3em; */
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  padding: 7px 0;
+  margin: 5px 0;
+}
+.box-img-proyect {
+  padding: 50px 0;  
+}
+.img-proyect {
+  width: 400px;
+  /* height: 100px; */
+}
+.fourSection-text {
+  line-height: 32px;
+  /* font-size: 1em; */
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: var(--colorText);
+  
+}
+
+/*diseño de la quinta sección*/
+.fiveSection {
+  /* background-image: url(../assets/images/bg.jpg); */
+  background-image: url(https://cdn.pixabay.com/photo/2017/09/21/16/43/lens-reflection-2772434_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--colorBlack);
+  background-position: bottom center; 
+  color: var(--colorWhite);
+  height: 60vh;
+}
+.btn-cv {
+  padding: 10px;
+  background: var(--colorYellow);
+  text-decoration: none;
+  color: var(--colorWhite);
+  
+}
+.btn-cv:hover {
+  background: var(--colorBlack);
+  text-decoration: none;
+  border: 1px solid var(--colorYellow);
+}
+
+
+.footer {
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilo de estrella*/
+.star {
+  /* color: white; */
+  text-align: center;
+  margin-bottom: 5px;
+}
+/*Barras que envuelven a la estrella*/
+.star::after, .star::before{
+  content: '';    
+  width: 50px;
+  display: inline-block;
+  border: 1px solid var(--colorBlack);
+  margin-bottom: 6px;   
+}
+
+/*Estilo de estrella fondo negro*/
+.starN {
+  /* color: white; */
+  text-align: center;
+}
+/*Barras que envuelven a la estrella*/
+.starN::after, .starN::before{
+  content: '';    
+  width: 50px;
+  display: inline-block;
+  border: 1px solid var(--colorWhite);
+  margin-bottom: 6px;   
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Efecto máquina de escribir*/
+.maquina { 
+  position: relative; 
+  /* float: left; */
+  background: var(--colorBlack);
+  color: var(--colorYellow);
+}
+
+.maquina span {
+  position:absolute;
+  right:0;
+  width:0;
+  background: var(--colorBlack);
+  border-left: 1px solid var(--colorBlack);
+  animation: escribir 4s steps(100) infinite alternate;
+}
+
+@keyframes escribir {
+  from { width: 100% }
+  to { width:0 }
+}
+
+
+
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 2rem;
+  }
+  .firsSection_content { 
+    margin-top: 300px;
+  }
+  .firtSection {
+    /* font-size: 2rem; */
+  
+  }
+}
