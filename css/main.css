@@ -99,7 +99,7 @@ ul.ed-menu.s-horizontal.default a {
 .text{
   line-height: 32px;
   font-size: 1.3em;
-  text-align: center;
+  text-align: justify;
   font-family: 'Dosis', sans-serif;
   padding-bottom: 10%;
 }   
@@ -233,7 +233,7 @@ ul.ed-menu.s-horizontal.default a {
   .text{
     line-height: 32px;
     font-size: .8rem;
-    text-align: center;
+    text-align: justify;
     font-family: 'Dosis', sans-serif;
     padding-bottom: 10%;
   }   
@@ -362,7 +362,7 @@ ul.ed-menu.s-horizontal.default a {
   .text{
     line-height: 32px;
     font-size: .8rem;
-    text-align: center;
+    text-align: justify;
     font-family: 'Dosis', sans-serif;
     padding-bottom: 10%;
   }   
@@ -387,8 +387,8 @@ ul.ed-menu.s-horizontal.default a {
   }
 
   .img-skill {
-    width: 50px;
-    height: 50px;
+    width: 6rem;
+    height: 6rem;
     object-fit: cover;
     color: var(--colorWhite);
     margin: 1rem;
@@ -509,16 +509,17 @@ ul.ed-menu.s-horizontal.default a {
     /*diseño de la segunda sección*/
     .secondSection {
       color: var(--colorText);
-      padding: 50px 100x;
-      padding-top: 2%;
+      /* padding: 50px 100x;
+      padding-top: 2%; */
+      padding-top: 2rem;
     }
     
     .text{
       line-height: 32px;
       font-size: 1.4em;
-      text-align: center;
+      text-align: justify;
       font-family: 'Dosis', sans-serif;
-      padding-bottom: 10%;
+      /* padding-bottom: 10%; */
     }   
     
     /*diseño de la tercera sección CONOCIMIENTOS*/
@@ -535,14 +536,15 @@ ul.ed-menu.s-horizontal.default a {
       text-align: center;
       font-family: 'Dosis', sans-serif;
       color: var(--colorWhite); 
+      padding-top: 5rem;
     }
     .treeSection-img {
       padding: 40px 0; 
     }
     
-    .img-skill {
-      width: 50px;
-      height: 50px;
+    .img-skill { 
+      width: 9rem;
+      height: 9rem;
       object-fit: cover;
       color: var(--colorWhite);
       margin: 1rem;
@@ -551,12 +553,12 @@ ul.ed-menu.s-horizontal.default a {
     /*diseño de la cuarta sección MIS PROYECTOS*/
     
     .title {
-      line-height: 32px;
-      /* font-size: 3em; */
+      line-height: 32px; 
       text-align: center;
       font-family: 'Dosis', sans-serif;
-      padding: 7px 0;
-      margin: 5px 0;
+      padding-top: 5rem;
+      /* padding-bottom: 3rem; */
+   
     }
     .box-img-proyect {
       padding: 50px 0;  
