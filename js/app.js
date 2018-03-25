@@ -8,7 +8,7 @@
 
     // Speed & Easing
     speed: 1000, // Integer. How fast to complete the scroll in milliseconds
-    offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+    offset: 50, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
     easing: 'easeInOutCubic', // Easing pattern to use
     customEasing: function (time) {
 

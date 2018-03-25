@@ -107,7 +107,7 @@ ul.ed-menu.s-horizontal.default a {
 
 .text{
   line-height: 32px;
-  font-size: 1em;
+  font-size: 1.3em;
   text-align: center;
   font-family: 'Dosis', sans-serif;
   padding-bottom: 10%;
@@ -213,6 +213,12 @@ ul.ed-menu.s-horizontal.default a {
 
 /*momdo mobile*/
 @media only screen and (max-width: 600px) {
+
+  .home {
+    font-size: 1.3rem;
+  }
+
+
   .contact {
     /* background-image: url(../assets/images/bg.jpg); */
     background-image: url(../assets/images/footer.jpg);
@@ -236,6 +242,16 @@ ul.ed-menu.s-horizontal.default a {
 
 
 
+@media (min-width: 1440px) {
+ 
+  .firsSection_content { 
+    margin-top: 300px;
+  }
+  .firtSection {
+    /* font-size: 2rem; */
+  
+  }
+}
 
 
 
@@ -318,16 +334,3 @@ ul.ed-menu.s-horizontal.default a {
 
 
 
-
-@media (min-width: 1440px) {
-  body {
-    /* font-size: 2rem; */
-  }
-  .firsSection_content { 
-    margin-top: 300px;
-  }
-  .firtSection {
-    /* font-size: 2rem; */
-  
-  }
-}
