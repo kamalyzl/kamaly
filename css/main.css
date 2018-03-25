@@ -635,8 +635,31 @@ ul.ed-menu.s-horizontal.default a {
   .firsSection_content { 
     margin-top: 300px;
   }
+  .style-text-nav-ver p {   
+    font-size: 1rem;    
+  } 
+  .style-text-nav-ver a {   
+    font-size: .6rem;    
+  } 
+  .style-text-nav-ver a:hover { 
+    padding: 1.5rem 1rem;
+ 
+  } 
+  /*diseño de la tercera sección CONOCIMIENTOS*/
+  .treeSection {     
+    background-size: 30vh;
+    background-position: bottom right;
+    height: auto; 
+  } 
+    .img-skill { 
+    width: 3rem;
+    height: 3rem; 
+  }
   .text {
-    /* font-size: 1rem; */
+    font-size: .9rem;
+  }
+  .title {
+    font-size: 1.5rem;
   }
 }
 
