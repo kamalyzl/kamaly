@@ -195,7 +195,7 @@ ul.ed-menu.s-horizontal.default a {
 @media only screen and (max-width: 600px) {
 /*diseño de la primera sección HOME */
   .home {  
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 8px;  
     line-height: 1.1;  
   }
@@ -216,7 +216,7 @@ ul.ed-menu.s-horizontal.default a {
 
   .text{
     line-height: 32px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
     font-family: 'Dosis', sans-serif;
     padding-bottom: 10%;
@@ -227,7 +227,7 @@ ul.ed-menu.s-horizontal.default a {
     background-repeat: no-repeat;   
     background-image: url(../assets/images/skill.png);
     background-size: 20vh;
-    background-position: bottom center;
+    background-position: bottom left;
     height: auto;
     background-color: var(--colorBlack);
   }
@@ -584,7 +584,7 @@ ul.ed-menu.s-horizontal.default a {
       background-size: cover;
       background-color: var(--colorBlack);
       background-position: bottom center; 
-      color: var(--colorWhite);
+      color: var(--colorWhite); 
       /* height: 40vh; */
     }
     
@@ -649,6 +649,16 @@ ul.ed-menu.s-horizontal.default a {
     padding: 1.5rem 1rem;
  
   } 
+
+  .home {
+    height: 100vh;
+    font-weight: 400; 
+    background-color: var(--colorBlack); 
+    font-size: 1.5rem;
+    letter-spacing: 8px;  
+    line-height: 1.1; 
+    color: var(--colorWhite);
+  }
   /*diseño de la tercera sección CONOCIMIENTOS*/
   .treeSection {     
     background-size: 30vh;
@@ -663,6 +673,10 @@ ul.ed-menu.s-horizontal.default a {
     font-size: 1.2rem;
   }
   .title {
+    font-size: 1.5rem;
+  }
+
+  .text__hover {
     font-size: 1.5rem;
   }
 }
