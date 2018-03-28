@@ -195,7 +195,7 @@ ul.ed-menu.s-horizontal.default a {
 @media only screen and (max-width: 600px) {
 /*diseño de la primera sección HOME */
   .home {  
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 8px;  
     line-height: 1.1;  
   }
@@ -216,7 +216,7 @@ ul.ed-menu.s-horizontal.default a {
 
   .text{
     line-height: 32px;
-    font-size: .8rem;
+    font-size: 1.5rem;
     text-align: justify;
     font-family: 'Dosis', sans-serif;
     padding-bottom: 10%;
@@ -228,7 +228,7 @@ ul.ed-menu.s-horizontal.default a {
     background-image: url(../assets/images/skill.png);
     background-size: 20vh;
     background-position: bottom center;
-    height: 90vh;
+    height: auto;
     background-color: var(--colorBlack);
   }
   .treeSection-title {
@@ -242,8 +242,8 @@ ul.ed-menu.s-horizontal.default a {
   }
 
   .img-skill {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 4rem;
+    height: 4rem;
     object-fit: cover;
     color: var(--colorWhite);
     margin: 1rem;
@@ -251,7 +251,7 @@ ul.ed-menu.s-horizontal.default a {
   
   .text__hover{
     /* position: absolute; */
-    font-size: 1rem;
+    font-size: 1.5rem;
     /* display: none; */
   }
 
@@ -336,7 +336,7 @@ ul.ed-menu.s-horizontal.default a {
     height: 100vh;
     font-weight: 400; 
     background-color: var(--colorBlack); 
-    font-size: .8rem;
+    font-size: 1rem;
     letter-spacing: 8px;  
     line-height: 1.1; 
     color: var(--colorWhite);
@@ -355,7 +355,7 @@ ul.ed-menu.s-horizontal.default a {
   }
 
   .text{  
-    font-size: .8rem; 
+    font-size: 1.2rem; 
   } 
   .title {
     text-align: center;
@@ -382,8 +382,8 @@ ul.ed-menu.s-horizontal.default a {
   }
 
   .img-skill {
-    width: 1rem;
-    height: 1rem;
+    width: 3rem;
+    height: 3rem;
     object-fit: cover; 
     /* margin: 1rem; */
   }
@@ -427,8 +427,12 @@ ul.ed-menu.s-horizontal.default a {
 @media only screen and (min-width: 768px) {
   .text__hover{
     /* position: absolute; */
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     /* display: none; */
+  }
+
+  .img__hover {
+    font-size: 10rem;
   }
 
     .nav-mobile {
@@ -516,7 +520,7 @@ ul.ed-menu.s-horizontal.default a {
     
     .text{
       line-height: 32px;
-      font-size: 1em;
+      font-size: 1.3rem;
       text-align: justify;
       font-family: 'Dosis', sans-serif;
       /* padding-bottom: 10%; */
@@ -639,7 +643,7 @@ ul.ed-menu.s-horizontal.default a {
     font-size: 1rem;    
   } 
   .style-text-nav-ver a {   
-    font-size: .6rem;    
+    font-size: .9rem;    
   } 
   .style-text-nav-ver a:hover { 
     padding: 1.5rem 1rem;
@@ -652,11 +656,11 @@ ul.ed-menu.s-horizontal.default a {
     height: auto; 
   } 
     .img-skill { 
-    width: 3rem;
-    height: 3rem; 
+    width: 6rem;
+    height: 6rem; 
   }
   .text {
-    font-size: .9rem;
+    font-size: 1.2rem;
   }
   .title {
     font-size: 1.5rem;
