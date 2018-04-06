@@ -108,7 +108,7 @@ ul.ed-menu.s-horizontal.default a {
 /*diseño de la tercera sección CONOCIMIENTOS*/
 .treeSection {    
   background-repeat: no-repeat;   
-  background-image: url(../assets/images/skill.png);
+  /* background-image: url(../assets/images/skill.png); */
   background-size: 40vh;
   background-position: bottom center;
   height: 90vh;
@@ -225,7 +225,7 @@ ul.ed-menu.s-horizontal.default a {
     /*diseño de la tercera sección CONOCIMIENTOS*/
   .treeSection {    
     background-repeat: no-repeat;   
-    background-image: url(../assets/images/skill.png);
+    /* background-image: url(../assets/images/skill.png); */
     background-size: 20vh;
     background-position: bottom left;
     height: auto;
@@ -365,7 +365,7 @@ ul.ed-menu.s-horizontal.default a {
     /*diseño de la tercera sección CONOCIMIENTOS*/
   .treeSection {    
     background-repeat: no-repeat;   
-    background-image: url(../assets/images/skill.png);
+    /* background-image: url(../assets/images/skill.png); */
     background-size: 20vh;
     background-position: bottom left;
     height: auto;
@@ -529,7 +529,7 @@ ul.ed-menu.s-horizontal.default a {
     /*diseño de la tercera sección CONOCIMIENTOS*/
     .treeSection {    
       background-repeat: no-repeat;   
-      background-image: url(../assets/images/skill.png);
+      /* background-image: url(../assets/images/skill.png); */
       background-size: 30vh;
       background-position: bottom center;
       height: auto;
