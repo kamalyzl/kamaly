@@ -1,0 +1,9 @@
+body {
+  background: blue;
+  & p {
+    background:  yellow;
+    display: flex; 
+    width: 200vh;
+    margin: 1px;
+  }
+}

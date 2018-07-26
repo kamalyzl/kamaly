@@ -1,0 +1,13 @@
+footer(class="ed-item ed-container full contact" id="contact")
+  div(class="ed-item m-90 m-offset-5 contact__content")
+    h1.title CONTÁCTAME
+    .starN
+    .contact_cv
+      a(href="assets/cv.pdf" download="kamalyCV.pdf" target="_blank" class="btn-cv") Download 
+        i(class="fas fa-download")
+    figure(class="ed-container main-distribute contact__social")
+    -const links = ['https://www.linkedin.com/in/kamalyzl/','mailto:kamaly.kazal@gmail.com','https://medium.com/@kamalyzl']
+    each item in links
+      figure
+        a(href=item class="img__hover")
+          i(class="fab fa-linkedin-in")

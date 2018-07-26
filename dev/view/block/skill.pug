@@ -1,0 +1,10 @@
+section(class="ed-item ed-container full treeSection" id="skill")
+  div(class="ed-item m-90 m-offset-5")
+    hi.title CONOCIMIENTOS
+    .starN
+    figure(class="ed-item main-distribute treeSection-img")
+    -const images = ['javascript.svg','gulp.png','css3.svg','html5.svg','github.png','react.svg','bootstrap.png','materialize.png','apirest.png','aws_cognito.png','jquery.png','flexbox-css.png','jira.png']
+    each img in images
+      figure
+        img(src="assets/icons/"+img alt="javascript" class="img-skill")
+        figcaption= img
