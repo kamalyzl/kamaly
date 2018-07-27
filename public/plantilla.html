@@ -339,3 +339,17 @@
 </body>
 
 </html>
+
+
+.style-text-nav-ver
+h3 KAMALY
+p kamalyzl
+  i(class="fab fa-github")
+-let menu = ['PRINCIPAL','SOBRE MÍ','CONOCIMIENTOS','PROYECTOS','CONTÁCTAME']
+-let iclass = ['fas fa-home fa-1x','far fa-user fa-1x','fas fa-lightbulb fa-1x','fas fa-code fa-1x','far fa-envelope fa-1x']
+-let href = ['#home','#about','#skill','#proyect','#contact']
+each item,index in menu
+a(data-scroll href=href[index] class="options") #{menu[index]}
+    i(class=iclass[index])
+
+    

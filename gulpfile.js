@@ -17,7 +17,7 @@ gulp.task('css', () => {
   gulp.src('./dev/sass/*.scss')
     .pipe(sass({
       outputStyle: 'compact',
-      sourceComments: true,
+      // sourceComments: true,
     }))
     .pipe(autoprefixer({
       versions:['last 2 browsers']

@@ -4,8 +4,7 @@ html(lang="es")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    link(rel="stylesheet", href="css/main.css")
-    link(rel="stylesheet", href="css/ed-grid.min.css")
+    link(rel="stylesheet", href="css/style.css")
     //- Tipo de letra
     link(href="https://fonts.googleapis.com/css?family=Dosis|Poppins",rel="stylesheet")
     //- Iconos
@@ -13,52 +12,40 @@ html(lang="es")
     title Kamaly Zapana Lorenzo
   body
     //  Nav mobile sup 
-    nav.to-m
-      ul(class="ed-menu s-horizontal default nav-mobile")
-        li: a(class="options",href="#home",data-scroll)
-          i(class="fas fa-home fa-1x")
-        li: a(class="options",href="#about",data-scroll)
-          i(class="fas fa-user fa-1x")
-        li: a(class="options",href="#skill",data-scroll)
-          i(class="fas fa-lightbulb fa-1x")
-        li: a(class="options",href="#proyect",data-scroll)
-          i(class="fas fa-code fa-1x")
+    //-
+      nav.to-m
+        ul(class="ed-menu s-horizontal default nav-mobile")
+          li: a(class="options",href="#home",data-scroll)
+            i(class="fas fa-home fa-1x")
+          li: a(class="options",href="#about",data-scroll)
+            i(class="fas fa-user fa-1x")
+          li: a(class="options",href="#skill",data-scroll)
+            i(class="fas fa-lightbulb fa-1x")
+          li: a(class="options",href="#proyect",data-scroll)
+            i(class="fas fa-code fa-1x")
 
-    // Vista Desktop
-    main.ed-container
-      nav(class="from-m nav-vertical ed-item m-20 l-15 xl-15 no-padding")
-        img(class="img_perfil" src="assets/images/kamaly 4.png" alt="front-end")
-        .style-text-nav-ver
-          h3 KAMALY
-          p kamalyzl
-            i(class="fab fa-github")
-          -let menu = ['PRINCIPAL','SOBRE MÍ','CONOCIMIENTOS','PROYECTOS','CONTÁCTAME']
-          -let iclass = ['fas fa-home fa-1x','far fa-user fa-1x','fas fa-lightbulb fa-1x','fas fa-code fa-1x','far fa-envelope fa-1x']
-          -let href = ['#home','#about','#skill','#proyect','#contact']
-          each item,index in menu
-           a(data-scroll href=href[index] class="options") #{menu[index]}
-              i(class=iclass[index])
+    // Vista nav del Desktop
+    main.container
+      nav.nav__desktop
+        img(src="assets/images/kamaly 4.png" alt="front-end")
+        h3 KAMALY
+        p kamalyzl
+          i(class="fab fa-github")
+        -let menu = ['PRINCIPAL','SOBRE MÍ','CONOCIMIENTOS','PROYECTOS','CONTÁCTAME']
+        -let iclass = ['fas fa-home fa-1x','far fa-user fa-1x','fas fa-lightbulb fa-1x','fas fa-code fa-1x','far fa-envelope fa-1x']
+        -let href = ['#home','#about','#skill','#proyect','#contact']
+        each item,index in menu
+          a(data-scroll href=href[index]) #{menu[index]}
+              i(class=iclass[index] class="icons")
+      
+        
 
-      // Aqui ocupamos el espacio el nav izquierdo en reemplazo del fixed al que realmente se muestra
-      div(class="from-m ed-item m-20 l-15 xl-15 no-padding")
-
-      main(class="ed-item ed-container m-80 l-85 xl-85")
-
+      // Container desktop
+      section.container__desktop
         // Primera sección
         block home
           include ./block/home
-        // Sobre mi
-        block about
-          include ./block/about
-        // Sección tercera conocimientos
-        block skill
-          include ./block/skill
-        // Sección de mis Proyectos
-        block proyect
-          include ./block/proyect
-        // Sección de mis contactos
-        block contact
-          include ./block/contact
+
   script(src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous")
   script(src="js/smooth-scroll.min.js")
   script(src="js/app.js")

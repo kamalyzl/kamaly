@@ -14,6 +14,8 @@ Portafolio responsivo, creado desde cero. Aquí encontrarás toda una recopilaci
 * EDGrid
 * Google Fonts
 * Fontawesome
+* Pug
+* Gulp
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
