@@ -37,14 +37,15 @@ html(lang="es")
         each item,index in menu
           a(data-scroll href=href[index]) #{menu[index]}
               i(class=iclass[index] class="icons")
-      
-        
 
       // Container desktop
       section.container__desktop
         // Primera sección
         block home
           include ./block/home
+        // Sobre mi
+        block about
+          include ./block/about
 
   script(src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous")
   script(src="js/smooth-scroll.min.js")
