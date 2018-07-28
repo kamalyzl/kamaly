@@ -174,7 +174,22 @@ body {
         outline: 1px solid;
       }
     }
+  }
 
+  & .contact{
+
+    & h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+    &__cv{
+      text-align: center;
+    }
+    &__group__icons{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
   }
 }
 

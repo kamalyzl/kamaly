@@ -1,13 +1,15 @@
-footer(class="ed-item ed-container full contact" id="contact")
-  div(class="ed-item m-90 m-offset-5 contact__content")
-    h1.title CONTÁCTAME
-    .starN
-    .contact_cv
-      a(href="assets/cv.pdf" download="kamalyCV.pdf" target="_blank" class="btn-cv") Download 
-        i(class="fas fa-download")
-    figure(class="ed-container main-distribute contact__social")
-    -const links = ['https://www.linkedin.com/in/kamalyzl/','mailto:kamaly.kazal@gmail.com','https://medium.com/@kamalyzl']
-    each item in links
+footer.contact#contact
+  h1 CONTÁCTAME
+  .starN
+  p.contact__cv
+    a(href="assets/cv.pdf" download="kamalyCV.pdf" target="_blank") Download 
+      i(class="fas fa-download")
+  figure.contact__group__icons
+    -const name = ['Linkedin','kamaly.kazal@gmail.com','Blog medium','Github','+51930184997']
+    -const hrefUrl = ['https://www.linkedin.com/in/kamalyzl/','mailto:kamaly.kazal@gmail.com','https://medium.com/@kamalyzl','https://github.com/kamalyzl','tel:+51930184997']
+    -const icons = ['fab fa-linkedin-in','far fa-envelope','fab fa-medium-m','fab fa-github','fas fa-phone']
+    each item,index in name
       figure
-        a(href=item class="img__hover")
-          i(class="fab fa-linkedin-in")
+        a(href=hrefUrl[index])
+          i(class=icons[index])
+        figcaption #{name[index]}

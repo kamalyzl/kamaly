@@ -54,6 +54,12 @@ body { font-family: 'Poppins', sans-serif; }
 
 .container__desktop .proyect .group__proyect figure { width: 400px; outline: 1px solid; }
 
+.container__desktop .contact h1 { font-size: 3rem; text-align: center; }
+
+.container__desktop .contact__cv { text-align: center; }
+
+.container__desktop .contact__group__icons { display: flex; flex-wrap: wrap; justify-content: space-around; }
+
 /*Efecto máquina de escribir*/
 .maquina { position: relative; background: black; color: #e0953f; }
 
