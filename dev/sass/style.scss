@@ -111,20 +111,49 @@ body {
     text-align: center;
   }
   & .about{
-    height: 100vh;
     background-color: $colorWhite;
     color: $colorText;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    padding: 2rem 8rem 8rem 7rem;
+
+    & h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+    & .text{
+      text-align: justify;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      padding-top: 5rem;
+
+      & p{
+        margin: 1rem;
+      }
+    }
+  }
+
+  & .skill{
+
+    & h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    & .group__figure{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 8rem;
+
+      & .images{
+        width: 100px;
+        object-fit: cover;
+      }
+    }
   }
 }
 
 /*Efecto máquina de escribir*/
 .maquina {
   position: relative;
-  /* float: left; */
   background: $colorBlack;
   color: $colorYellow;
 }

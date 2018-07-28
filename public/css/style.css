@@ -34,10 +34,22 @@ body { font-family: 'Poppins', sans-serif; }
 
 .container__desktop .home { display: flex; flex-direction: column; align-content: center; justify-content: center; font-weight: 400; background-color: black; letter-spacing: .5rem; line-height: 2; color: #ECE5F0; font-size: 1rem; height: 100vh; text-align: center; }
 
-.container__desktop .about { height: 100vh; background-color: #ECE5F0; color: #464646; display: flex; flex-direction: column; justify-content: center; text-align: center; }
+.container__desktop .about { background-color: #ECE5F0; color: #464646; padding: 2rem 8rem 8rem 7rem; }
+
+.container__desktop .about h1 { font-size: 3rem; text-align: center; }
+
+.container__desktop .about .text { text-align: justify; font-size: 1.1rem; letter-spacing: 1px; padding-top: 5rem; }
+
+.container__desktop .about .text p { margin: 1rem; }
+
+.container__desktop .skill h1 { font-size: 3rem; text-align: center; }
+
+.container__desktop .skill .group__figure { display: flex; flex-wrap: wrap; padding: 8rem; }
+
+.container__desktop .skill .group__figure .images { width: 100px; -o-object-fit: cover; object-fit: cover; }
 
 /*Efecto máquina de escribir*/
-.maquina { position: relative; /* float: left; */ background: black; color: #e0953f; }
+.maquina { position: relative; background: black; color: #e0953f; }
 
 .maquina span { position: absolute; right: 0; width: 0; background: black; border-left: 1px solid black; -webkit-animation: escribir 4s steps(100) infinite alternate; animation: escribir 4s steps(100) infinite alternate; }
 
