@@ -8,14 +8,12 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul { margin: 0; padding: 0; font-weight: no
 
 ol, ul { list-style: none; }
 
-img { max-width: 100%; height: auto; }
-
 /*Tipo de letra*/
 body { font-family: 'Poppins', sans-serif; }
 
 .container { display: flex; }
 
-.nav__desktop { flex-basis: 300px; flex-grow: 0; display: flex; background-color: black; color: #ECE5F0; box-shadow: inset 0 0 5px 0 #e0953f; align-items: center; flex-direction: column; }
+.nav__desktop { flex-basis: 400px; flex-grow: 0; display: flex; background-color: black; color: #ECE5F0; box-shadow: inset 0 0 5px 0 #e0953f; align-items: center; flex-direction: column; }
 
 .nav__desktop img { width: 200px; height: 200px; border-radius: 50%; }
 
@@ -47,6 +45,14 @@ body { font-family: 'Poppins', sans-serif; }
 .container__desktop .skill .group__figure { display: flex; flex-wrap: wrap; padding: 8rem; }
 
 .container__desktop .skill .group__figure .images { width: 100px; -o-object-fit: cover; object-fit: cover; }
+
+.container__desktop .proyect__img { max-width: 100%; }
+
+.container__desktop .proyect h1 { font-size: 3rem; text-align: center; color: black; }
+
+.container__desktop .proyect .group__proyect { display: flex; flex-wrap: wrap; justify-content: space-around; outline: 1px solid; }
+
+.container__desktop .proyect .group__proyect figure { width: 400px; outline: 1px solid; }
 
 /*Efecto máquina de escribir*/
 .maquina { position: relative; background: black; color: #e0953f; }
