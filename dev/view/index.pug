@@ -33,16 +33,18 @@ html(lang="es")
           i(class="fab fa-github")
         -let menu = ['PRINCIPAL','SOBRE MÍ','CONOCIMIENTOS','PROYECTOS','CONTÁCTAME']
         -let iclass = ['fas fa-home fa-1x','far fa-user fa-1x','fas fa-lightbulb fa-1x','fas fa-code fa-1x','far fa-envelope fa-1x']
-        -let href = ['#home','#about','#skill','#proyect','#contact']
+        -let href = ['home','about','skill','proyect','contact']
         each item,index in menu
-          a(data-scroll href=href[index]) #{menu[index]}
+          a(data-scroll id=href[index]) #{menu[index]}
               i(class=iclass[index] class="icons")
 
       // Container desktop
-      section.container__desktop
+      section.container__desktop#container_desktop
+      
         // Primera sección
         block home
           include ./block/home
+      //-
         // Sobre mi
         block about
           include ./block/about
@@ -56,6 +58,4 @@ html(lang="es")
         block contact
           include ./block/contact
 
-  script(src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous")
-  script(src="js/smooth-scroll.min.js")
-  script(src="js/app.js")
+  script(src="js/main.js")

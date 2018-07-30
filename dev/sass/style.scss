@@ -19,10 +19,6 @@ ol, ul {
   list-style: none;
 }
 
-// img {
-//   max-width: 100%;
-//   height: auto;
-// }
 
 $colorText:#464646;
 $colorWhite : #ECE5F0; 
@@ -38,7 +34,7 @@ body {
   display: flex;
 }
 .nav__desktop {
-  flex-basis: 400px;
+  flex-basis: 300px;
   flex-grow: 0;
   display: flex;
   background-color: $colorBlack;
@@ -46,6 +42,7 @@ body {
   box-shadow: inset 0 0 5px 0 $colorYellow;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 
   & img{
     width: 200px;
@@ -81,6 +78,7 @@ body {
       background: $colorText;
       text-decoration: none;
       transition: 0.5s;
+      cursor: pointer;
     }
   }
 }

@@ -13,7 +13,7 @@ body { font-family: 'Poppins', sans-serif; }
 
 .container { display: flex; }
 
-.nav__desktop { flex-basis: 400px; flex-grow: 0; display: flex; background-color: black; color: #ECE5F0; box-shadow: inset 0 0 5px 0 #e0953f; align-items: center; flex-direction: column; }
+.nav__desktop { flex-basis: 300px; flex-grow: 0; display: flex; background-color: black; color: #ECE5F0; box-shadow: inset 0 0 5px 0 #e0953f; align-items: center; flex-direction: column; height: 100vh; }
 
 .nav__desktop img { width: 200px; height: 200px; border-radius: 50%; }
 
@@ -23,7 +23,7 @@ body { font-family: 'Poppins', sans-serif; }
 
 .nav__desktop a { padding: 20px 10px; color: #e0953f; font-size: 1rem; transition: 0.5s; text-decoration: none; width: 100%; text-align: center; }
 
-.nav__desktop a:hover { padding: 30px 10px; letter-spacing: 2px; color: #ECE5F0; background: #464646; text-decoration: none; transition: 0.5s; }
+.nav__desktop a:hover { padding: 30px 10px; letter-spacing: 2px; color: #ECE5F0; background: #464646; text-decoration: none; transition: 0.5s; cursor: pointer; }
 
 .icons { margin-left: .5rem; }
 
