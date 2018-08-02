@@ -6,7 +6,7 @@ const autoprefixer = require('gulp-autoprefixer')
 
 
 gulp.task('pug', () => {
-  gulp.src('./dev/view/*.pug')
+  gulp.src('./dev/view/views/*.pug')
     .pipe(pug({
       pretty: true
     })) // pipe coge los datos y los pasa por plugins

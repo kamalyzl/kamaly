@@ -13,6 +13,12 @@ body { font-family: 'Poppins', sans-serif; }
 
 .container { display: flex; }
 
+.nav__mobile { display: none; background: black; color: #e0953f; display: none; justify-content: space-around; }
+
+.nav__mobile a { padding: 20px 10px; font-size: 1rem; transition: 0.5s; text-decoration: none; width: 100%; text-align: center; }
+
+.nav__mobile a:hover { padding: 30px 10px; letter-spacing: 2px; color: #ECE5F0; background: #464646; text-decoration: none; transition: 0.5s; cursor: pointer; }
+
 .nav__desktop { flex-basis: 300px; flex-grow: 0; display: flex; background-color: black; color: #ECE5F0; box-shadow: inset 0 0 5px 0 #e0953f; align-items: center; flex-direction: column; height: 100vh; }
 
 .nav__desktop img { width: 200px; height: 200px; border-radius: 50%; }
@@ -28,37 +34,29 @@ body { font-family: 'Poppins', sans-serif; }
 .icons { margin-left: .5rem; }
 
 /*estilo de todas las secciones*/
-.container__desktop { flex-grow: 1; display: flex; background-color: black; color: #ECE5F0; justify-content: center; flex-direction: column; }
+.home { display: flex; flex-direction: column; align-content: center; justify-content: center; font-weight: 400; background-color: black; letter-spacing: .5rem; line-height: 2; color: #ECE5F0; font-size: .9rem; height: 100vh; text-align: center; flex-grow: 1; }
 
-.container__desktop .home { display: flex; flex-direction: column; align-content: center; justify-content: center; font-weight: 400; background-color: black; letter-spacing: .5rem; line-height: 2; color: #ECE5F0; font-size: 1rem; height: 100vh; text-align: center; }
+.about { display: flex; flex-grow: 1; flex-direction: column; }
 
-.container__desktop .about { background-color: #ECE5F0; color: #464646; padding: 2rem 8rem 8rem 7rem; }
+.skill h1 { font-size: 3rem; text-align: center; }
 
-.container__desktop .about h1 { font-size: 3rem; text-align: center; }
+.skill .group__figure { display: flex; flex-wrap: wrap; padding: 8rem; }
 
-.container__desktop .about .text { text-align: justify; font-size: 1.1rem; letter-spacing: 1px; padding-top: 5rem; }
+.skill .group__figure .images { width: 100px; -o-object-fit: cover; object-fit: cover; }
 
-.container__desktop .about .text p { margin: 1rem; }
+.proyect__img { max-width: 100%; }
 
-.container__desktop .skill h1 { font-size: 3rem; text-align: center; }
+.proyect h1 { font-size: 3rem; text-align: center; color: black; }
 
-.container__desktop .skill .group__figure { display: flex; flex-wrap: wrap; padding: 8rem; }
+.proyect .group__proyect { display: flex; flex-wrap: wrap; justify-content: space-around; outline: 1px solid; }
 
-.container__desktop .skill .group__figure .images { width: 100px; -o-object-fit: cover; object-fit: cover; }
+.proyect .group__proyect figure { width: 400px; outline: 1px solid; }
 
-.container__desktop .proyect__img { max-width: 100%; }
+.contact h1 { font-size: 3rem; text-align: center; }
 
-.container__desktop .proyect h1 { font-size: 3rem; text-align: center; color: black; }
+.contact__cv { text-align: center; }
 
-.container__desktop .proyect .group__proyect { display: flex; flex-wrap: wrap; justify-content: space-around; outline: 1px solid; }
-
-.container__desktop .proyect .group__proyect figure { width: 400px; outline: 1px solid; }
-
-.container__desktop .contact h1 { font-size: 3rem; text-align: center; }
-
-.container__desktop .contact__cv { text-align: center; }
-
-.container__desktop .contact__group__icons { display: flex; flex-wrap: wrap; justify-content: space-around; }
+.contact__group__icons { display: flex; flex-wrap: wrap; justify-content: space-around; }
 
 /*Efecto máquina de escribir*/
 .maquina { position: relative; background: black; color: #e0953f; }
@@ -70,3 +68,7 @@ body { font-family: 'Poppins', sans-serif; }
 
 @keyframes escribir { from { width: 100%; }
   to { width: 0; } }
+
+@media only screen and (max-width: 768px) { .container { flex-direction: column; }
+  .nav__desktop { display: none; }
+  .nav__mobile { display: flex; justify-content: space-around; } }

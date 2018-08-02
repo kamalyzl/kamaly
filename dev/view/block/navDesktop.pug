@@ -1,0 +1,13 @@
+//  Nav desktop sub
+nav.nav__desktop
+  img(src="assets/images/kamaly 4.png" alt="front-end")
+  h3 KAMALY
+  p kamalyzl
+    i(class="fab fa-github")
+  each item,index in href
+    if item === "home"
+      a(data-scroll href="/") #{menu[index]}
+          i(class=icons[index] class="icons")
+    else
+      a(data-scroll href=`${href[index]}.html`) #{menu[index]}
+          i(class=icons[index] class="icons")

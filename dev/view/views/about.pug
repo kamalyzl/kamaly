@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="es")
+  include ../block/config
+  block head
+    include ../block/head
+  body
+    // Vista nav del Desktop
+    main.container
+      //Nav mobile sup
+      block navMobile
+        include ../block/navMobile
+      //Nav desktop sub
+      block navDesktop
+        include ../block/navDesktop
+      // Primera sección
+      block about
+        include ../block/about
+      //-
+        // Sobre mi
+        block about
+          include ./block/about
+        // Sección tercera conocimientos
+        block skill
+          include ./block/skill
+        // Sección de mis Proyectos
+        block proyect
+          include ./block/proyect
+        // Sección de mis contactos
+        block contact
+          include ./block/contact
+
+  script(src="js/main.js")
