@@ -82,12 +82,13 @@ ul.ed-menu.s-horizontal.default a {
   line-height: 1.1; 
   color: var(--colorWhite);
   font-size: 1rem;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home_content { 
   text-align: center;
-  margin-top: 100px;
-  display: grid; 
 }
   
 /*diseño de la segunda sección*/
@@ -110,9 +111,7 @@ ul.ed-menu.s-horizontal.default a {
 
 
 /*diseño de la cuarta sección MIS PROYECTOS*/
-.fourSection{
-  /* outline: 1px solid red; */
-}
+ 
 .fourSection-content {
   /* outline: 1px solid; */
   padding-bottom: 4rem;
