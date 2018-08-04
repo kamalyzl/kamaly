@@ -6,13 +6,12 @@ html(lang="es")
   body
     // Vista nav del Desktop
     main.container
-      //Nav mobile sup
-      block navMobile
-        include ../block/navMobile
+    //  Nav mobile sup
+    nav.nav__mobile
+      each item,index in icons
+        a(data-scroll id=href[index])
+            i(class=icons[index] class="icons")
       //Nav desktop sub
       block navDesktop
         include ../block/navDesktop
-      // Segunda sección
-      block about
-        include ../block/about
   script(src="js/main.js")

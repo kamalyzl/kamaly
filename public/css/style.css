@@ -33,16 +33,19 @@ body { font-family: 'Poppins', sans-serif; }
 
 .icons { margin-left: .5rem; }
 
-/*estilo de todas las secciones*/
 .home { display: flex; flex-direction: column; align-content: center; justify-content: center; font-weight: 400; background-color: black; letter-spacing: .5rem; line-height: 2; color: #ECE5F0; font-size: .9rem; height: 100vh; text-align: center; flex-grow: 1; }
 
-.about { display: flex; flex-grow: 1; flex-direction: column; }
+.about { flex-direction: column; text-align: center; align-content: center; justify-content: center; background-color: black; line-height: 2; color: #ECE5F0; font-size: 1.1rem; width: 100vh; flex-grow: 1; padding: 2rem 8rem 8rem 7rem; }
 
-.skill h1 { font-size: 3rem; text-align: center; }
+.skill { background-color: black; color: #ECE5F0; width: 100vh; flex-grow: 1; }
+
+.skill h1 { text-align: center; }
 
 .skill .group__figure { display: flex; flex-wrap: wrap; padding: 8rem; }
 
 .skill .group__figure .images { width: 100px; -o-object-fit: cover; object-fit: cover; }
+
+.proyect { background-color: black; color: #ECE5F0; width: 100vh; flex-grow: 1; }
 
 .proyect__img { max-width: 100%; }
 
