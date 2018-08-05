@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+html(lang="en")
+  -const menu = ['PRINCIPAL','SOBRE MÍ','CONOCIMIENTOS','PROYECTOS','CONTÁCTAME']
+  -const icons = ['fas fa-home fa-1x','far fa-user fa-1x','fas fa-lightbulb fa-1x','fas fa-code fa-1x','far fa-envelope fa-1x']
+  -const href = ['home','about','skill','proyect','contact']
+  head
+head
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible", content="ie=edge")
+  link(rel="stylesheet", href="css/style.css")
+  //- Tipo de letra
+  link(href="https://fonts.googleapis.com/css?family=Dosis|Poppins",rel="stylesheet")
+  //- Iconos
+  script(src="https://use.fontawesome.com/releases/v5.0.6/js/all.js")
+  title Kamaly
+  body
+    main.container
+      nav.nav__desktop
+        img(src="assets/images/kamaly 4.png" alt="front-end")
+        h3 KAMALY
+        p kamalyzl
+          i(class="fab fa-github")
+        each item,index in href
+           a(id=href[index]) #{menu[index]}
+            i(class=icons[index] class="icons")
+      #container-content
+        section.home   
+          h4 Hola! Soy
+            h1 Kamaly Zapana
+              p Hago lo que no sé, para aprender cómo hacerlo.
+              p.maquina Frontend Developer
+                <span>&#160;</span>
+  script(src="js/app.js")
+
+
